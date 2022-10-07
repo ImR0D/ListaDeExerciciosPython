@@ -15,9 +15,9 @@ def getThirdToCube(third):
 if __name__ == "__main__":
     print("Informe três números:")
 
-    n1 = float(input("número 1: "))
-    n2 = float(input("número 2: "))
-    n3 = float(input("número 3: "))
+    n1 = int(input("número 1: "))
+    n2 = int(input("número 2: "))
+    n3 = int(input("número 3: "))
 
     c1 = getProductDoubleWithinHalfOfSecond(n1, n2)
     c2 = getSumOfTripleOfFirstWithinThird(n1, n3)
