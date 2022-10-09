@@ -53,7 +53,7 @@ def menu():
     a = 0
     r = 0
     while not option == 0:
-        # Função funcional apenas via terminal
+        # Função clearConsole() funcional apenas via terminal
         clearConsole()
         print(" ====================================================== ")
         print("| 1 - Calcular área           |  3 - Calcular raio     |")
